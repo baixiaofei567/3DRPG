@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53da764ce720a3249aabe75a8943ba14, type: 3}
+  m_Name: ShitouComplete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: f07350564106876499504e6d1eabfb69, type: 3}
+    text: "\u8C22\u8C22\u4F60\u8BA9\u6211\u4EEC\u5144\u5F1F\u56E2\u805A\uFF0C\u8FD9\u662F\u627F\u8BFA\u7ED9\u4F60\u7684\u795E\u5668"
+    questData: {fileID: 11400000, guid: 39f1bc8c3d6de924ea82bcc09850bd84, type: 2}
+    dialogueOptions:
+    - text: "\u770B\u5230\u4F60\u4EEC\u56E2\u805A\u6211\u4E5F\u5F88\u5F00\u5FC3"
+      targetID: 
+      takeQuest: 1

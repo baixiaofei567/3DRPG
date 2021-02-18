@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a999efe8240ea45be0c91e0f108b4a, type: 3}
+  m_Name: ShitouQuest
+  m_EditorClassIdentifier: 
+  questName: "\u6253\u8D25\u77F3\u5934\u5F1F\u5F1F"
+  description: "\u77F3\u5934\u54E5\u54E5\u5E0C\u671B\u6211\u6253\u8D25\u5B83\u5F1F\u5F1F\uFF0C\u5E76\u6536\u96C63\u4E2A\u8611\u83C7"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  questRequires:
+  - name: Golem
+    requireAmount: 1
+    currentAmount: 0
+  - name: Mogu
+    requireAmount: 2
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: 376ff6ee70e5e874e92a9bf4dec072bd, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: 4d9ec242bb1747c43af68f58820a2a9b, type: 2}
+    amount: -3

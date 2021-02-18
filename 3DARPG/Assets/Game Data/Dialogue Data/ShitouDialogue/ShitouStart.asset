@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53da764ce720a3249aabe75a8943ba14, type: 3}
+  m_Name: ShitouStart
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: f07350564106876499504e6d1eabfb69, type: 3}
+    text: "\u5148\u522B\u6025\u7740\u8D70\uFF0C\u6211\u4E0D\u662F\u602A\u7269\uFF01"
+    questData: {fileID: 0}
+    dialogueOptions:
+    - text: "\u602A\u7269\u79BB\u6211\u8FDC\u70B9\uFF01"
+      targetID: 
+      takeQuest: 0
+    - text: "\u8BF7\u95EE\u6709\u4EC0\u4E48\u4E8B\u5417"
+      targetID: Piece02
+      takeQuest: 0
+  - ID: Piece02
+    image: {fileID: 21300000, guid: f07350564106876499504e6d1eabfb69, type: 3}
+    text: "\u56E0\u4E3A\u6700\u8FD1\u5927\u9646\u9B54\u7269\u6A2A\u884C\uFF0C\u6211\u5F1F\u5F1F\u4E5F\u53D7\u5230\u4E86\u90AA\u6C14\u5165\u4FB5\uFF0C\u6211\u5E0C\u671B\u4F60\u53EF\u4EE5\u6253\u8D25\u5B83\uFF0C\u5E76\u4E14\u6536\u96C6\u8611\u83C7\u6765\u7ED9\u6211\uFF0C\u8BA9\u6211\u7528\u5B83\u6700\u7231\u7684\u8611\u83C7\u6C64\u5524\u9192\u5B83"
+    questData: {fileID: 11400000, guid: 39f1bc8c3d6de924ea82bcc09850bd84, type: 2}
+    dialogueOptions:
+    - text: "\u597D\u7684\uFF0C\u8BA9\u6211\u8BD5\u4E00\u8BD5"
+      targetID: 
+      takeQuest: 1
+    - text: "\u4E0D\u597D\u610F\u601D\u4F60\u8FD9\u4E2A\u4EFB\u52A1\u592A\u96BE\u4E86"
+      targetID: 
+      takeQuest: 0

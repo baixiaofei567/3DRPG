@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51bd7e76da36c944b6c6aadd333d5b4, type: 3}
+  m_Name: Mogu
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Mogu
+  itemIcon: {fileID: 21300000, guid: 47224db2937d35945ae11bf6553d7ff8, type: 3}
+  itemAmount: 1
+  description: "\u770B\u8D77\u6765\u6709\u6BD2\u7684\u5927\u8611\u83C7\uFF0C\u4E0D\u77E5\u9053\u5403\u4E00\u53E3\u4F1A\u600E\u4E48\u6837"
+  stackable: 1
+  weaponPrefab: {fileID: 0}
+  weaponData: {fileID: 0}
+  anim: {fileID: 0}
+  useableItemData: {fileID: 11400000, guid: 971c902708305ed45a74eaabde7ca2e8, type: 2}

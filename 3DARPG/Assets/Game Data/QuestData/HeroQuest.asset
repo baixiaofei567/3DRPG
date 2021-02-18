@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a999efe8240ea45be0c91e0f108b4a, type: 3}
+  m_Name: HeroQuest
+  m_EditorClassIdentifier: 
+  questName: "\u6D88\u706D\u5706\u6EDA\u6EDA\u7684\u602A\u7269"
+  description: "\u795E\u5C04\u624B\u5E0C\u671B\u6211\u6D88\u706D2\u53F2\u83B1\u59C6\u548C1\u4E4C\u9F9F\uFF0C\u5E76\u627F\u8BFA\u9001\u62112\u4E2A\u8611\u83C7\u3002"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  questRequires:
+  - name: Slime
+    requireAmount: 2
+    currentAmount: 0
+  - name: TurtleShell
+    requireAmount: 1
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: 4d9ec242bb1747c43af68f58820a2a9b, type: 2}
+    amount: 2

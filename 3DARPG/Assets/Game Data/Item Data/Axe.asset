@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51bd7e76da36c944b6c6aadd333d5b4, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u70C8\u65A9"
+  itemIcon: {fileID: 21300000, guid: b2c22347ef109ba44b6ca0e9c793330f, type: 3}
+  itemAmount: 1
+  description: "\u65A7\u8EAB\u4E0A\u6563\u53D1\u7740\u6D53\u6D53\u7684\u8840\u8165\u5473\uFF0C\u4F3C\u4E4E\xB7\xB7\xB7"
+  stackable: 0
+  weaponPrefab: {fileID: 427524200399714265, guid: 7dbdb1f4b15738841a86386f734897a9,
+    type: 3}
+  weaponData: {fileID: 11400000, guid: 289f062405986154a8a89afd47410dc0, type: 2}
+  anim: {fileID: 22100000, guid: 15693864f1a96534aa8f1d8d8c2599ca, type: 2}
+  useableItemData: {fileID: 0}
